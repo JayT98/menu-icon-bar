@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 30px rgba(115, 115, 115, 0.7);
+}
+
+.icon-bar {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-bar a{
+    width: 100px;
+    height: 80px;
+    line-height: 80px;
+    margin: 0 5px;
+    text-align: center;
+    transition: all 0.3s ease;
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    transition: all ease-out 0.3s;
+    border-bottom: 5px solid rgb(0, 106, 255);
+    color: rgb(0, 106, 255);
+}
+
+.active {
+    border-bottom: 5px solid rgb(0, 106, 255) !important;
+    color: rgb(0, 106, 255) !important;
+}
+
+main {
+    width: 100%;
+    height: 2000px;
+}
+
+section {
+    background-color: #f2f2f2;
+    height: 100vh;
+    width: 100vw;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    height: auto;
+    width: 100%;
+}
+
+#home{
+    background-color: rgb(219, 219, 219);
+}
+
+#inbox{
+    background-color: rgb(255, 255, 0);
+}
+
+#user{
+    background-color: rgb(0, 255, 30);
+}
+
+#phone{
+    background-color: rgb(255, 0, 0);
+}
+
+#setting{
+    background-color: rgb(255, 0, 195);
+}
+
+footer div{
+    width: 100% ;
+    height: 200px;
+    background-color: #6000ae;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#myBtn {
+    bottom: 20px;
+    right: 30px;
+    font-size: 20px;
+    float: right;
+    margin-top: 120px;
+    margin-right: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(197, 197, 197);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 50%;
+}
